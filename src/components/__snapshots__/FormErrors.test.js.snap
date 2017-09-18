@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with key and nonce and server errors correctly 1`] = `
+<div
+  className=""
+>
+  
+  <p>
+    Key
+     is invalid
+  </p>
+  <p>
+    Nonce
+     is invalid
+  </p>
+  <p>
+    ServerErrors
+     Failed to fetch
+  </p>
+</div>
+`;
+
+exports[`renders with key and nonce errors correctly 1`] = `
+<div
+  className=""
+>
+  
+  <p>
+    Key
+     is invalid
+  </p>
+  <p>
+    Nonce
+     is invalid
+  </p>
+  
+</div>
+`;
+
+exports[`renders with key and server errors correctly 1`] = `
+<div
+  className=""
+>
+  
+  <p>
+    Key
+     is invalid
+  </p>
+  
+  <p>
+    ServerErrors
+     Failed to fetch
+  </p>
+</div>
+`;
+
+exports[`renders with key error correctly 1`] = `
+<div
+  className=""
+>
+  
+  <p>
+    Key
+     is invalid
+  </p>
+  
+  
+</div>
+`;
+
+exports[`renders with nonce and server errors correctly 1`] = `
+<div
+  className=""
+>
+  
+  
+  <p>
+    Nonce
+     is invalid
+  </p>
+  <p>
+    ServerErrors
+     Failed to fetch
+  </p>
+</div>
+`;
+
+exports[`renders with nonce error correctly 1`] = `
+<div
+  className=""
+>
+  
+  
+  <p>
+    Nonce
+     is invalid
+  </p>
+  
+</div>
+`;
+
+exports[`renders with server error correctly 1`] = `
+<div
+  className=""
+>
+  
+  
+  
+  <p>
+    ServerErrors
+     Failed to fetch
+  </p>
+</div>
+`;
+
+exports[`renders without error correctly 1`] = `
+<div
+  className="text-center"
+>
+  <p>
+    ChaCha 20
+  </p>
+</div>
+`;

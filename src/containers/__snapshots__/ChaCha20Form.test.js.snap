@@ -1,0 +1,489 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with error correctly 1`] = `
+<div
+  className="panel panel-danger"
+>
+  <div
+    className="panel-heading"
+  >
+    <div
+      className=""
+    >
+      
+      
+      <p>
+        Nonce
+         is invalid
+      </p>
+      
+    </div>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="key-input"
+      >
+        Key:
+      </label>
+      <input
+        className="form-control"
+        id="key-input"
+        min="0"
+        name="key"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="nonce-input"
+      >
+        Nonce:
+      </label>
+      <input
+        className="form-control"
+        id="nonce-input"
+        min="0"
+        name="nonce"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="text-input"
+      >
+        Text:
+      </label>
+      <textarea
+        className="form-control"
+        id="text-input"
+        name="text"
+        onChange={[Function]}
+        value={undefined}
+      />
+    </div>
+    <div
+      className="btn-group"
+      role="group"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="encrypt"
+        onClick={[Function]}
+      >
+        Encrypt
+      </button>
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="decrypt"
+        onClick={[Function]}
+      >
+        Decrypt
+      </button>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+        style={
+          Object {
+            "width": "20rem",
+          }
+        }
+      >
+        <h4
+          className="card-title"
+        >
+          Result:
+        </h4>
+        <p
+          className="card-text"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders with server error correctly 1`] = `
+<div
+  className="panel panel-danger"
+>
+  <div
+    className="panel-heading"
+  >
+    <div
+      className=""
+    >
+      
+      
+      
+      <p>
+        ServerErrors
+         Server down
+      </p>
+    </div>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="key-input"
+      >
+        Key:
+      </label>
+      <input
+        className="form-control"
+        id="key-input"
+        min="0"
+        name="key"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="nonce-input"
+      >
+        Nonce:
+      </label>
+      <input
+        className="form-control"
+        id="nonce-input"
+        min="0"
+        name="nonce"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="text-input"
+      >
+        Text:
+      </label>
+      <textarea
+        className="form-control"
+        id="text-input"
+        name="text"
+        onChange={[Function]}
+        value={undefined}
+      />
+    </div>
+    <div
+      className="btn-group"
+      role="group"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="encrypt"
+        onClick={[Function]}
+      >
+        Encrypt
+      </button>
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="decrypt"
+        onClick={[Function]}
+      >
+        Decrypt
+      </button>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+        style={
+          Object {
+            "width": "20rem",
+          }
+        }
+      >
+        <h4
+          className="card-title"
+        >
+          Result:
+        </h4>
+        <p
+          className="card-text"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders with valid data correctly 1`] = `
+<div
+  className="panel panel-default"
+>
+  <div
+    className="panel-heading"
+  >
+    <div
+      className="text-center"
+    >
+      <p>
+        ChaCha 20
+      </p>
+    </div>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="key-input"
+      >
+        Key:
+      </label>
+      <input
+        className="form-control"
+        id="key-input"
+        min="0"
+        name="key"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value="55"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="nonce-input"
+      >
+        Nonce:
+      </label>
+      <input
+        className="form-control"
+        id="nonce-input"
+        min="0"
+        name="nonce"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value="66"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="text-input"
+      >
+        Text:
+      </label>
+      <textarea
+        className="form-control"
+        id="text-input"
+        name="text"
+        onChange={[Function]}
+        value={undefined}
+      />
+    </div>
+    <div
+      className="btn-group"
+      role="group"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        name="encrypt"
+        onClick={[Function]}
+      >
+        Encrypt
+      </button>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        name="decrypt"
+        onClick={[Function]}
+      >
+        Decrypt
+      </button>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+        style={
+          Object {
+            "width": "20rem",
+          }
+        }
+      >
+        <h4
+          className="card-title"
+        >
+          Result:
+        </h4>
+        <p
+          className="card-text"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders without error correctly 1`] = `
+<div
+  className="panel panel-default"
+>
+  <div
+    className="panel-heading"
+  >
+    <div
+      className="text-center"
+    >
+      <p>
+        ChaCha 20
+      </p>
+    </div>
+  </div>
+  <div
+    className="panel-body"
+  >
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="key-input"
+      >
+        Key:
+      </label>
+      <input
+        className="form-control"
+        id="key-input"
+        min="0"
+        name="key"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="nonce-input"
+      >
+        Nonce:
+      </label>
+      <input
+        className="form-control"
+        id="nonce-input"
+        min="0"
+        name="nonce"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        htmlFor="text-input"
+      >
+        Text:
+      </label>
+      <textarea
+        className="form-control"
+        id="text-input"
+        name="text"
+        onChange={[Function]}
+        value={undefined}
+      />
+    </div>
+    <div
+      className="btn-group"
+      role="group"
+    >
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="encrypt"
+        onClick={[Function]}
+      >
+        Encrypt
+      </button>
+      <button
+        className="btn btn-primary"
+        disabled={true}
+        name="decrypt"
+        onClick={[Function]}
+      >
+        Decrypt
+      </button>
+    </div>
+    <div
+      className="card"
+    >
+      <div
+        className="card-body"
+        style={
+          Object {
+            "width": "20rem",
+          }
+        }
+      >
+        <h4
+          className="card-title"
+        >
+          Result:
+        </h4>
+        <p
+          className="card-text"
+        >
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
